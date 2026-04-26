@@ -3,8 +3,9 @@ Test comp & swap list
 """
 
 from comp_swap_container import CompSwapList
-from comp_swap_container import CompSwapList
+
 import pytest
+
 def test_cl_ops():
     """
     Test comp & swap list
