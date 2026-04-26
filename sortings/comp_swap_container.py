@@ -4,12 +4,12 @@ Container that swaps and compares
 
 from __future__ import annotations
 from typing import Iterable, TypeVar
-#from beartype import beartype
+from beartype import beartype
 
 T = TypeVar("T")
 
 
-#@beartype
+@beartype
 class CompSwapList(list[T]):
     """
     A list wrapper that tracks comparison and swap operations
